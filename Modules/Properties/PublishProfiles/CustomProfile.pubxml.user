@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\LincolnElectric\Website</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Include/Project/LincolnElectric.Website.config">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/Project/LincolnElectric.Website.Serialization.config">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/Project/z.LincolnElectric.DevSettings.config">
+      <publishTime>01/03/2018 20:04:29</publishTime>
+    </File>
+    <File Include="App_Config/Security/domains.config.transform">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>01/03/2018 20:09:57</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>01/03/2018 20:09:57</publishTime>
+    </File>
+    <File Include="bin/DynamicPlaceholders.dll">
+      <publishTime>01/03/2018 20:09:36</publishTime>
+    </File>
+    <File Include="bin/DynamicPlaceholders.Mvc.dll">
+      <publishTime>01/03/2018 20:09:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>01/03/2018 20:09:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>01/03/2018 20:09:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>01/03/2018 20:09:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/03/2018 20:09:30</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>01/03/2018 20:09:45</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>01/03/2018 20:09:41</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>01/03/2018 20:09:41</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>01/03/2018 20:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>01/03/2018 20:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>01/03/2018 20:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>01/03/2018 20:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>01/03/2018 20:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>01/03/2018 20:09:45</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>01/03/2018 20:09:45</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>01/03/2018 20:09:45</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>01/03/2018 20:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>01/03/2018 20:09:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>01/03/2018 20:09:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>01/03/2018 20:09:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>01/03/2018 20:09:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>01/03/2018 20:09:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>01/03/2018 20:09:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>01/03/2018 20:09:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>01/03/2018 20:09:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>01/03/2018 20:09:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>01/03/2018 20:09:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.Process.dll">
+      <publishTime>01/03/2018 20:09:55</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>01/03/2018 20:09:55</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>01/03/2018 20:09:55</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>01/03/2018 20:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.DriveInfo.dll">
+      <publishTime>01/03/2018 20:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>01/03/2018 20:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>01/03/2018 20:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>01/03/2018 20:09:57</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>01/03/2018 20:09:57</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>01/03/2018 20:09:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>01/03/2018 20:09:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>01/03/2018 20:09:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>01/03/2018 20:09:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>01/03/2018 20:09:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>01/03/2018 20:09:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>01/03/2018 20:09:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Thread.dll">
+      <publishTime>01/03/2018 20:09:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>01/03/2018 20:09:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>01/03/2018 20:09:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>01/03/2018 20:09:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>01/03/2018 20:09:59</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>01/03/2018 20:10:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>01/03/2018 20:10:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>01/03/2018 20:10:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>01/03/2018 20:10:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>01/03/2018 20:10:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>01/03/2018 20:10:01</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Analytics.Core.dll">
+      <publishTime>01/03/2018 20:09:36</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Analytics.dll">
+      <publishTime>01/03/2018 20:09:40</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Analytics.Model.dll">
+      <publishTime>01/03/2018 20:09:40</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Analytics.Outcome.dll">
+      <publishTime>01/03/2018 20:09:40</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Foundation.Assets.dll">
+      <publishTime>01/03/2018 21:12:25</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Foundation.Assets.dll.config">
+      <publishTime>01/02/2018 21:10:39</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Foundation.Assets.pdb">
+      <publishTime>01/03/2018 21:12:25</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Foundation.DependencyInjection.dll">
+      <publishTime>01/03/2018 21:12:16</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Foundation.DependencyInjection.dll.config">
+      <publishTime>01/02/2018 21:10:39</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Foundation.DependencyInjection.pdb">
+      <publishTime>01/03/2018 21:12:16</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Foundation.Logger.dll">
+      <publishTime>01/03/2018 21:12:16</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Foundation.Logger.dll.config">
+      <publishTime>01/02/2018 21:10:39</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Foundation.Logger.pdb">
+      <publishTime>01/03/2018 21:12:16</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Foundation.SitecoreExtensions.dll">
+      <publishTime>01/03/2018 21:12:21</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Foundation.SitecoreExtensions.dll.config">
+      <publishTime>01/02/2018 21:10:39</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Foundation.SitecoreExtensions.pdb">
+      <publishTime>01/03/2018 21:12:21</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>01/03/2018 20:09:40</publishTime>
+    </File>
+    <File Include="bin/Sitecore.LincolnElectric.WebSite.dll">
+      <publishTime>01/03/2018 21:27:15</publishTime>
+    </File>
+    <File Include="bin/Sitecore.LincolnElectric.WebSite.pdb">
+      <publishTime>01/03/2018 21:27:15</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.Analytics.dll">
+      <publishTime>01/03/2018 20:09:57</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>01/03/2018 20:09:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/03/2018 20:09:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/03/2018 20:09:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>01/03/2018 20:09:57</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/03/2018 20:09:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/03/2018 20:09:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/03/2018 20:09:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/03/2018 20:09:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/03/2018 20:09:59</publishTime>
+    </File>
+    <File Include="bower.json">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="bundleconfig.json">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="scripts/Init/carousel.js">
+      <publishTime>01/03/2018 20:04:29</publishTime>
+    </File>
+    <File Include="scripts/LincolnElectric.Theming.js">
+      <publishTime>01/03/2018 20:04:29</publishTime>
+    </File>
+    <File Include="scripts/LincolnElectric.Theming.min.js">
+      <publishTime>01/03/2018 20:10:42</publishTime>
+    </File>
+    <File Include="scripts/LincolnElectric.Theming.min.js.map">
+      <publishTime>01/03/2018 20:04:29</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric.css">
+      <publishTime>01/03/2018 21:26:53</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric.min.css">
+      <publishTime>01/03/2018 21:26:54</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_address.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_alert.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_badges.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_blockgrid.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_blockquote.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_breadcrumbs.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_buttons.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_counter.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_dropdowns.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_forms.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_headline.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_icon.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_images.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_labels.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_list-group.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_list.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_logo.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_modal.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_navs.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_pagination.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_panels.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_popover.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_progress-bars.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_tables.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_tabs-nav.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_thumbnails.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_tooltip.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_typography.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/atoms/_wells.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/hero/_hero.scss">
+      <publishTime>01/03/2018 20:04:29</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/molecules/_button-groups.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/molecules/_jumbotron.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/molecules/_media.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/molecules/_modal.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/molecules/_mosaic.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/molecules/_navbar.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/molecules/_sidebar.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/molecules/_testimony.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/organisms/_lightbox.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/organisms/_media-list.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/organisms/_mega-dropdown.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/organisms/_page-header.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/organisms/_panel-group.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/organisms/_tabs.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/panel/_panel.scss">
+      <publishTime>01/03/2018 20:04:29</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/_atoms.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/_hero.scss">
+      <publishTime>01/03/2018 20:04:29</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/_molecules.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/components/_organisms.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/templates/_article.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/templates/_aside.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/templates/_footer.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/templates/_header.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/templates/_organisms.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/templates/_section.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/templates/_sidebar.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/templates/_template.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/vendor/_owl-carousel.scss">
+      <publishTime>01/03/2018 20:04:29</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/_defaults.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/_fonts.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/_global.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/_grid.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/_helpers.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/_mixins.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/_overrides.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/_pages.scss">
+      <publishTime>01/03/2018 20:04:29</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/_scaffolding.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/_templates.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/_utilities.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/_variables.scss">
+      <publishTime>01/03/2018 21:26:54</publishTime>
+    </File>
+    <File Include="styles/lincolnelectric/_vendor.scss">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="Views/Layouts/Default.cshtml">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>01/02/2018 21:10:40</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/03/2018 21:04:24</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

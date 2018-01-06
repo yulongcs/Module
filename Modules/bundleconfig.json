@@ -1,0 +1,52 @@
+[
+//    {
+//        "outputFileName": "scripts/Sitecore.Foundation.Frameworks.js",
+//        "inputFiles": [
+//            "bower_components/modernizr/modernizr.js",
+//            "bower_components/jquery/dist/jquery.js",
+//            "bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"
+//        ],
+//        "sourceMap": true
+//    },
+//    {
+//        "outputFileName": "scripts/Sitecore.Foundation.Theming.js",
+//        "inputFiles": [
+//            "bower_components/shufflejs/dist/shuffle.js",
+//            "bower_components/wow/dist/wow.js",
+//            "bower_components/owl.carousel/dist/owl.carousel.js",
+//            "bower_components/ekko-lightbox/dist/ekko-lightbox.js",
+//            "bower_components/ev-emitter/ev-emitter.js",
+//            "bower_components/imagesloaded/imagesloaded.js",
+//            "bower_components/bootstrap-colequalizer/bootstrap-colequalizer.js",
+//            "scripts/Init/counter.js",
+//            "scripts/Init/form.js",
+//            "scripts/Init/grid.js",
+//            "scripts/Init/lightbox.js",
+//            "scripts/Init/popover.js",
+//            "scripts/Init/search.js",
+//            "scripts/Init/sidebar.js",
+//            "scripts/Init/theming.js",
+//            "scripts/Init/tooltip.js",
+//            "scripts/Init/media-query.js"
+//        ],
+//        "sourceMap": true
+//    },
+//    {
+//        "outputFileName": "scripts/LincolnElectric.Theming.js",
+//        "inputFiles": [
+//            "scripts/Init/carousel.js"
+//        ],
+//        "sourceMap": true
+//    },
+//    {
+//        "outputFileName": "styles/vendor.css",
+//        "inputFiles": [
+//            "bower_components/bootstrap-block-grid/dist/bootstrap3-block-grid.css",
+//            "bower_components/hover/css/hover.css",
+//            "bower_components/animate.css/animate.css",
+//            "bower_components/ekko-lightbox/dist/ekko-lightbox.css",
+//            "bower_components/owl.carousel/dist/assets/owl.carousel.css",
+//            "bower_components/owl.carousel/dist/assets/owl.theme.default.css"
+//        ]
+//    }
+]

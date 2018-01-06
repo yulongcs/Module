@@ -1,0 +1,9 @@
+@import "bower_components/bootstrap/scss/alerts";
+
+.alert {
+  button.close {
+    background-color: transparent;
+    border: none;
+    -webkit-appearance: none;
+  }
+}

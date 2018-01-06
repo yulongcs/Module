@@ -1,0 +1,36 @@
+﻿@inherits WebViewPage
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="zh-cn">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>@ViewBag.Title - 林肯电器</title>
+    @Styles.Render("~/styles/vendor.css")
+    @Styles.Render("~/styles/lincolnelectric.css")
+    @Scripts.Render("~/scripts/Sitecore.Foundation.Frameworks.js")
+    @Scripts.Render("~/scripts/Sitecore.Foundation.Theming.js")
+    @Scripts.Render("~/scripts/LincolnElectric.Theming.js")
+</head>
+<body>
+    <div id="main-container">
+        <header class="header-static">
+            @RenderPage("~/Views/Shared/_headerTop.cshtml")
+            @RenderPage("~/Views/Shared/_navbar.cshtml")
+        </header>
+        <main role="main">
+            @RenderBody()
+        </main>
+        <footer class="bg-dark">
+            @RenderPage("~/Views/Shared/_footer.cshtml")
+        </footer>
+    </div>
+</body>
+</html>

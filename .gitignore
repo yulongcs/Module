@@ -3,3 +3,7 @@
 ################################################################################
 
 /Modules/bin
+/Modules/bower_components
+/.vs
+/packages
+/Modules/obj/Debug

@@ -1,0 +1,41 @@
+$grid-float-breakpoint: $screen-sm-min;
+$grid-gutter-width: 30;
+
+@import "bower_components/bootstrap/scss/grid";
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: $container-large-desktop;
+
+    @media (max-width: $screen-desktop) {
+        max-width: $container-desktop;
+    }
+
+    @media (max-width: $screen-tablet) {
+        max-width: $container-tablet;
+    }
+
+    @media (max-width: $screen-phone) {
+        max-width: $container-phone;
+    }
+}
+
+
+// Custom implementation of block grid here
+
+.row {
+  &.no-gutters {
+    padding: 0;
+    & > [class^="col-"],
+    & > [class*=" col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+  /* Support equal height columns */
+  &.row-col-eq {
+      margin-bottom: $line-height-computed;
+  }
+}
